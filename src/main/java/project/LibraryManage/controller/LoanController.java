@@ -4,7 +4,6 @@ import org.springframework.data.domain.Page;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import project.LibraryManage.dto.BookDto;
 import project.LibraryManage.dto.LoanDto;
 import project.LibraryManage.dto.LoanResponseDto;
 import project.LibraryManage.entity.LoanEntity;

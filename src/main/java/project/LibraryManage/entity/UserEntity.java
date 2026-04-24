@@ -21,13 +21,9 @@ public class UserEntity {
             allocationSize = 1
     )
     private Long id;
-
     private String name;
-
     private String email;
-
     private LocalDate memberSince;
-
     @OneToMany(mappedBy = "users", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<LoanEntity> loanEntities;  // must be a Collection type
 

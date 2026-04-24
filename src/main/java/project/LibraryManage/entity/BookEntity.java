@@ -18,15 +18,10 @@ public class BookEntity {
             allocationSize = 1
     )
     private Long id;
-
     private String title;
-
     private String isbn;
-
     private String genre;
-
     private Integer totalCopies;
-
     @ManyToOne
     @JoinColumn(name = "authors_id") // Foreign key in bookEntity table
     private AuthorEntity authorEntity;

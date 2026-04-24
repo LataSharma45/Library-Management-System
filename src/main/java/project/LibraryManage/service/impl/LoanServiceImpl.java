@@ -6,9 +6,7 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
-import project.LibraryManage.dto.BookDto;
 import project.LibraryManage.dto.LoanDto;
-import project.LibraryManage.entity.AuthorEntity;
 import project.LibraryManage.entity.BookEntity;
 import project.LibraryManage.entity.LoanEntity;
 import project.LibraryManage.entity.UserEntity;
@@ -27,10 +25,8 @@ import java.util.Optional;
 public class LoanServiceImpl implements LoanService {
     @Autowired
     private LoanRepository loanRepository;
-
     @Autowired
     private BooksRepository booksRepository;
-
     @Autowired
     private UserRepository userRepository;
 @Autowired

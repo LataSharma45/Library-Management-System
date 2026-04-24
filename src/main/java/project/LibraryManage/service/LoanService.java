@@ -1,7 +1,6 @@
 package project.LibraryManage.service;
 
 import org.springframework.data.domain.Page;
-import org.springframework.stereotype.Service;
 import project.LibraryManage.dto.LoanDto;
 import project.LibraryManage.entity.LoanEntity;
 

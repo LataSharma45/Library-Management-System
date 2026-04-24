@@ -7,7 +7,6 @@ import project.LibraryManage.entity.BookEntity;
 @Mapper(componentModel = "spring")
 public interface BookMapper {
     BookEntity mapFrom(BookDto bookDto);
-
     BookDto mapTo(BookEntity bookEntity);
 }
 

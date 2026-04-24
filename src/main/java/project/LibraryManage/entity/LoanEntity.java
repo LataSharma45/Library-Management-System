@@ -32,14 +32,9 @@ public class LoanEntity {
     @ManyToOne (cascade = CascadeType.ALL)
     @JoinColumn (name = "book_id")
     private BookEntity book;
-
     private LocalDate borrowDate;
-
     private LocalDate returnDate;
-
     private Boolean returned;
-
     private LocalDate dueDate;
-
     private Double fine;
 }

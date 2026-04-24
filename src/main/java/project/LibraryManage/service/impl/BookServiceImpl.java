@@ -21,10 +21,8 @@ public class BookServiceImpl implements BookService {
 
     @Autowired
     private BooksRepository booksRepository;
-
     @Autowired
     private BookMapper bookMapper;
-
     @Autowired
     private AuthorRepository authorRepository;
 

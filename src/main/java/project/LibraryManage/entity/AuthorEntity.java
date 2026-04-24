@@ -23,7 +23,6 @@ public class AuthorEntity {
             allocationSize = 1
     )
     private Long id;
-
     private String name;
 
     @OneToMany(mappedBy = "authorEntity", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
