@@ -33,6 +33,7 @@ A backend application built using Spring Boot that provides RESTful APIs to mana
 
 ### User
   - `/user`
+    
 CRUD operations supported: `POST`, `GET`, `PUT`, `DELETE`
  
 ## Setup Instructions
