@@ -23,16 +23,17 @@ A backend application built using Spring Boot that provides RESTful APIs to mana
 ## API Endpoints
 
 ### Author
-  - **/authors** 
+  - `/authors`
  
 ### Book
-  - **/books** 
+  - `/books`
  
 ### Loan
-  - **/loans**
+  - `/loans`
 
 ### User
-  - **/user**
+  - `/user`
+CRUD operations supported: `POST`, `GET`, `PUT`, `DELETE`
  
 ## Setup Instructions
  - Clone the repository
